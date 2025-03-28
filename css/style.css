@@ -1,0 +1,286 @@
+body,html{
+
+    margin: 0px;
+    width: auto;
+    height: auto;
+    background: white;
+}
+
+.navbar{
+
+    background-color:white;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+    width: 100%;
+    position: fixed;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.heading{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex:100%;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+.team-members{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex:100%;
+    flex-direction:row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px;
+}
+
+
+img#team-member{
+
+    
+    width: 250px;
+    height: 200px;
+    border: none;
+    
+}
+
+h3{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    font-weight: lighter;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    text-transform:capitalize;
+    color: rgb(6, 6, 59);
+}
+
+ul{
+
+    list-style-type: none;
+}
+
+li{
+
+    display: inline-flex;
+    color:rgb(12, 53, 179);
+}
+
+a{
+    color: rgb(5, 21, 69);;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    padding: 10px 10px 10px;
+    font-size: small;
+}
+
+
+.container{
+
+    margin-bottom: 50px;
+    background-color: white;
+}
+
+
+#mission{
+
+    background-color:rgb(6, 6, 74);
+    width: 300px;
+    height: 260px;
+}
+
+.vision{
+
+    background-color: rgb(14, 68, 138);
+    width: 300px;
+    height: 260px;
+    
+}
+
+.values{
+
+    background-color:rgb(6, 6, 74);
+    width: 300px;
+    height: 260px;
+}
+
+h2{
+
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:lighter;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 5px;
+    text-transform: capitalize;
+    font-size: xx-large;
+    justify-content: center;
+}
+
+p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    font-size: small;
+    text-wrap: wrap;
+    word-break: break-all;
+}
+
+.content{
+    
+    margin-top: 1px;
+    background-color: white;
+    display: flex;
+    flex:100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-evenly;
+}
+
+ h4{
+
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    font-weight:lighter;
+    text-transform: uppercase;
+    color: rgb(6, 6, 59);
+} 
+
+ul.links{
+    display: flex;
+    flex-direction:column;
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+
+.footer-section{
+
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    
+}
+
+footer{
+
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    margin:0px;
+    text-transform: capitalize;
+    padding: 10px;
+    font-size: small;
+    background-color:inherit;
+}
+
+.desc{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+h4{
+
+    color: white;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+a#link{
+
+    display: block;
+    color: white;
+}
+
+.section{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex:100%;
+    justify-content:flex-start;
+    min-height:auto;
+    padding-bottom: 50px;
+    margin: 80px;
+}
+
+#container{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex:100%;
+    justify-content:space-between;
+}
+
+#about{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex:100%;
+    justify-content:space-evenly;
+}
+
+p.parag{
+
+    width: 450px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer{
+
+    background-color: rgb(6, 6, 57);
+    min-height: 250px;
+}
+
+
+.card{
+
+    width: 250px;
+    height: 200px;
+}
+
+
+img:hover{
+
+    background-color: white;
+    opacity: 0.5;
+}
+
+img{
+
+    cursor: pointer;
+    width: 250px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.founder-content{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex:100%;
+    justify-content: center;
+}
+
+.banner{
+
+    background-image: url("../img/IMG-20250327-WA0004.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 80vh;
+}
